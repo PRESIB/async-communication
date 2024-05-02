@@ -1,0 +1,17 @@
+11 
+    de.renew.gui.CPNDrawing 15 
+        de.renew.gui.PlaceFigure "attributes" "attributes" 6 "TextAlignment" "Int" 0 "FigureWithID" "Int" 4171 "FrameColor" "Color" 0 0 0 255 "FontSize" "Int" 14 "FontStyle" "Int" 1 "FillColor" "Color" 112 219 147 255 431 365 20 20 NULL  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 6 "TextAlignment" "Int" 0 "FigureWithID" "Int" 4175 "FrameColor" "Color" 0 0 0 255 "FontSize" "Int" 14 "FontStyle" "Int" 1 "FillColor" "Color" 112 219 147 255 429 437 24 16 NULL  
+        de.renew.gui.PlaceFigure "attributes" "attributes" 6 "TextAlignment" "Int" 0 "FigureWithID" "Int" 4184 "FrameColor" "Color" 0 0 0 255 "FontSize" "Int" 14 "FontStyle" "Int" 1 "FillColor" "Color" 112 219 147 255 431 530 20 20 NULL  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 5 "FontStyle" "Int" 1 "FigureWithID" "Int" 4195 "FillColor" "Color" 112 219 147 255 "FontSize" "Int" 14 "FrameColor" "Color" 0 0 0 255 429 274 24 16 NULL  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 5 "FontStyle" "Int" 1 "FigureWithID" "Int" 4200 "FillColor" "Color" 112 219 147 255 "FontSize" "Int" 14 "FrameColor" "Color" 0 0 0 255 300 661 24 16 NULL  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 5 "FontStyle" "Int" 1 "FigureWithID" "Int" 4201 "FillColor" "Color" 112 219 147 255 "FontSize" "Int" 14 "FrameColor" "Color" 0 0 0 255 429 752 24 16 NULL  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 5 "FontStyle" "Int" 1 "FigureWithID" "Int" 4202 "FillColor" "Color" 112 219 147 255 "FontSize" "Int" 14 "FrameColor" "Color" 0 0 0 255 520 709 24 16 NULL  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 5 "FontStyle" "Int" 1 "FigureWithID" "Int" 4209 "FillColor" "Color" 112 219 147 255 "FontSize" "Int" 14 "FrameColor" "Color" 0 0 0 255 240 605 24 16 NULL  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 5 "FontStyle" "Int" 1 "FigureWithID" "Int" 4219 "FillColor" "Color" 112 219 147 255 "FontSize" "Int" 14 "FrameColor" "Color" 0 0 0 255 634 367 24 16 NULL  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 5 "FontStyle" "Int" 1 "FigureWithID" "Int" 4263 "FillColor" "Color" 112 219 147 255 "FontSize" "Int" 14 "FrameColor" "Color" 0 0 0 255 661 606 24 16 NULL  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 5 "FontStyle" "Int" 1 "FigureWithID" "Int" 4424 "FillColor" "Color" 112 219 147 255 "FontSize" "Int" 14 "FrameColor" "Color" 0 0 0 255 426 151 24 16 NULL  
+        de.renew.gui.PlaceFigure "attributes" "attributes" 5 "FontStyle" "Int" 1 "FigureWithID" "Int" 4438 "FillColor" "Color" 112 219 147 255 "FontSize" "Int" 14 "FrameColor" "Color" 0 0 0 255 426 77 20 20 NULL  
+        de.renew.gui.PlaceFigure "attributes" "attributes" 5 "FontStyle" "Int" 1 "FigureWithID" "Int" 4452 "FillColor" "Color" 112 219 147 255 "FontSize" "Int" 14 "FrameColor" "Color" 0 0 0 255 430 216 20 20 NULL  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 1 "FigureWithID" "Int" 4634 355 728 24 16 NULL  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 1 "FigureWithID" "Int" 4642 585 651 24 16 NULL  NULL  0 0 895 978 
