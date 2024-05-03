@@ -1,23 +1,19 @@
 # Async communication Example with Reference Workshop Net
 
 ## Description
+This repository contains a model, consisting of reference nets build with the Reference Net Workshop tool (http://www.renew.de/).
 
-Este repositorio contem um modelo, constituido por redes Reference Workshop, que foi apresentaado no papaer cientifico  intitulado *Leveraging High-Level Petri Nets for Cyber-Physical Systems Development* proposto para PNSE'24 - International Workshop on Petri Nets and Software Engineering, Geneva, Switzerland, June 24-25, 2024.
+The model demonstrates how to implement asynchronous bi-directional communication using the MQTT protocol between a net model and physical devices.
+## Description of the case to be modeled
 
-Este modelo demonstra como implementar comunicação biderecional assincrona recorrendo ao protocolo MQTT.
+A scenario consisting of floodgates and a panic button has been modeled. The gates are initially open and then go into a closed state, remaining in this loop until the panic button is pressed. At this point, the gates stop moving and stay motionless until their movement in the previous or opposite direction is resumed.
+## Model description
+The model consists of the following networks:
 
-## Descrição do caso a modelar
-
-Idializou-se um cenario composto por comportas e um botão de panico. 
-As comportas estão inicialmente abertas e passam ao estado fechado e permanecem nesse ciclo até que o botõ de panico seja presionado e então as portas param o seu movimento e permanecem imoveis até que seja resposto o seu movimento no sentido anterior ou oposto.
-
-## Descrição do modelo
-O modelo é composto pelas seguintes redes:
-
-* **Controller -** Rede que que apresenta o estado dos *Cyber Physical Systems* (CPS)
-* **Gate -** Rede que representa a contraparte digital de uma CPS. Esta CPS representa uma contraporta.
-* **Button -** Rede que reporesenta a contraparte digital de uma CPS que haje como botão de panico.
-* **Communiator -** Rede que instancia as classe MQTT client e possibilita a comunicação entre as Redes da parte logica do CPS e a su contraparte.
-* **mqtt_message_receiver -** Rede utilizada como observer na classe Java para *receber* as mensagens e por sincronia entre transições passa-la para as outras redes.
+* **Controller -** Reference net that displays the state of the *Cyber-Physical Systems* (CPS)
+* **Gate -** Reference net that represents the gates' digital counterpart.
+* **Button -** Reference net that represents the digital counterpart of a CPS for the panic button.
+* **Communiator -** Reference net that instantiates the MQTT client class and enables communication between the networks of the logical part of the CPS and its counterpart.
+* **mqtt_message_receiver -** Reference net used as an observer in the Java class to receive messages and pass them on to the other networks synchronously between transitions.
 
 
